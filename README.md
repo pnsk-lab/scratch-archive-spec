@@ -110,7 +110,7 @@ Scratch のプロジェクトデータ本体（Scratch 3 の project.json その
 
 ### info.json
 
-Scratch の `https://api.scratch.mit.edu/projects/{id}` などから取得できる「プロジェクト情報」を保存する（タイトル/作者/統計/履歴/サムネURLなど）。
+Scratch の `https://api.scratch.mit.edu/projects/{id}` などから取得できる「プロジェクト情報」をそのまま保存する（タイトル/作者/統計/履歴/サムネURLなど）。この API のデータを加工なしで保存。ただし、意味的な変更を加えないのであれば、JSON のフォーマットなどは許可する。
 
 ### thumbnail.{ext}
 
